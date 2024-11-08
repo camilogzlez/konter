@@ -25,6 +25,7 @@ export default {}
 a img {
   pointer-events: none; /* Ensure the image doesn't block the link */
   transition: transform 0.3s ease-in-out;
+  padding-bottom: 20px;
 }
 
 /* Adjust styles for smaller screens */

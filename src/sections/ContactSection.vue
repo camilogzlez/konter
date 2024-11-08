@@ -1,34 +1,16 @@
 <template>
     <!-- Contact section start -->
-	<section id="contact-section" class="px-12 lg:px-32 py-16 relative">
-        <!-- Main text start -->
-		<h1 class="uppercase text-5xl mb-4 font-semibold ">
-			Contact us
-		</h1>
-		<!-- Main text end -->
-
-        <!-- Form start -->
-        <div class="grid grid-cols-1 md:grid-cols-2 w-full">
-            <div class="hidden md:flex justify-center items-center">
-                <img src="@/assets/camera.png" alt="">
+    <section id="contact-section" class="px-12 lg:px-32 py-16 relative">
+        <!-- Wrapping the entire section with the link -->
+        <a href="https://forms.gle/YOUR_GOOGLE_FORM_LINK" target="_blank" rel="noopener noreferrer" class="block w-full h-full">
+            <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 overflow-hidden h-full sm:h-[90%] md:h-[85%] lg:h-[100%] -z-50">
+                <!-- Image inside the link with hover effect -->
+                <img src="@/assets/monster.png" alt="img" class="object-cover w-full h-full transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
             </div>
-            <div class="flex flex-col w-full items-center">
-                <label for="user_email" class="text-stone-500 text-left">E-mail address</label>
-                <input type="email" name="user_email" id="user_email" class="bg-stone-200 py-2 px-4 w-full mb-6 xl:w-1/2">
-
-                <label for="user_message" class="text-stone-500 text-left">Message</label>
-                <textarea name="user_message" id="user_message" cols="30" rows="10" class="bg-stone-200 py-2 px-4 w-full mb-6 xl:w-1/2"></textarea>
-
-                <button class="btn w-full md:w-1/2">Send</button>
-            </div>
-        </div>
-        <!-- Form end -->
-
-        <!-- Circle start -->
-        <div class="bg-neutral-200 h-44 w-44 md:h-52 md:w-52 rounded-full absolute -top-20 left-0 mt-16 -z-20"></div>
-        <!-- Circle end -->
-	</section>
-	<!-- Contact section end -->
+        </a>
+        <!-- Main text end -->
+    </section>
+    <!-- Contact section end -->
 </template>
 
 <script>
@@ -38,5 +20,23 @@ export default {
 </script>
 
 <style>
+#contact-section {
+  height: 50vh; /* Default height for the section */
+}
 
+@media (max-width: 768px) {
+  #contact-section {
+    height: 20vh; /* Adjusted for smaller screens */
+  }
+}
+@media (max-width: 480px) {
+  #contact-section {
+    height: 10vh; /* Adjusted for smaller screens */
+  }
+}
+
+a:hover img {
+  transform: scale(1.05);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
 </style>

@@ -1,55 +1,20 @@
 <template>
     <!-- Main section start -->
-	<section class="h-screen px-12 lg:px-32 py-32 mb-8">
-		<div class="w-full md:w-1/2 h-full flex flex-col md:justify-center ">
-			<!-- Main text start -->
-			<h1 class="uppercase text-5xl xl:text-7xl mb-4 font-semibold ">
-				CAPTURING
-				BEAUTY PHOTO
-			</h1>
-			<p class="capitalize xl:w-1/2 text-stone-500">
-				a camera is an optical instrument that captures a visual image at their most basic, cameras are sealed
-			</p>
-			<!-- Main text end -->
-
-			<!-- Social links start -->
-			<div class="flex mt-3 gap-8">
-				<a href="#">
-					<i class="fa-brands fa-instagram socialIcon"></i>
-				</a>
-				<a href="#">
-					<i class="fa-brands fa-linkedin socialIcon"></i>
-				</a>
-				<a href="#">
-					<i class="fa-brands fa-facebook socialIcon"></i>
-				</a>
-				<a href="#">
-					<i class="fa-brands fa-dribbble socialIcon"></i>
-				</a>
-				<a href="#">
-					<i class="fa-brands fa-pinterest socialIcon"></i>
-				</a>
-			</div>
-			<!-- Social links end -->
-		</div>
-
-		<!-- Photographer image start -->
-		<div class="absolute bottom-0 right-0 overflow-hidden h-2/5 sm:h-1/2 md:h-3/5 lg:h-4/6 -z-50">
-			<img src="@/assets/image.jpg" alt="img" class="h-full">
-		</div>
-
-		<!-- Photographer image end -->
-
-		<!-- "More" button start -->
-		<div class="w-full h-20 flex justify-start md:justify-center items-center">
-			<a href="#about-section">
-				<i class="fa-solid fa-arrow-down transition text-stone-100 text-xl bg-stone-700 rounded-full shadow p-4 hover:-translate-y-2 hover:shadow-xl"></i>
-			</a>
-		</div>
-		<!-- "More" button end -->
-
-	</section>
-	<!-- Main section end -->
+    <section class="h-screen px-12 lg:px-32 py-32 mb-8">
+        <div class="w-full md:w-1/2 h-full flex flex-col md:justify-center">
+            <!-- Main text start -->
+            <h1 class="text-3xl sm:text-4xl md:text-5xl xl:text-7xl mb-4 font-semibold">
+                Imagine une nouvelle façon d'imaginer
+            </h1>
+            <!-- Main text end -->
+            <!-- Image container start -->
+            <div class="absolute bottom-0 right-0 overflow-hidden h-3/4 sm:h-4/5 md:h-5/6 lg:h-3/4 -z-50">
+                <img src="@/assets/image.jpg" alt="img" class="object-cover w-full h-full sm:w-3/4 sm:h-3/4 md:w-5/6 md:h-5/6 lg:w-full lg:h-full">
+            </div>
+            <!-- Image container end -->
+        </div>
+    </section>
+    <!-- Main section end -->
 </template>
 
 <script>
@@ -58,6 +23,13 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+/* Add custom media queries for finer control */
+@media (max-width: 640px) { 
+    .object-cover {
+        width: 90%; /* Makes image 80% of its original size on small screens */
+        height: auto; /* Ensures the image aspect ratio remains intact */
+        margin-top: 25%; /* Adds a little space on top to move the image lower */
+    }
+}
 </style>

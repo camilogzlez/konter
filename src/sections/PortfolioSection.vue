@@ -77,8 +77,9 @@ export default {}
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Comic+Sans+MS&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
 .font-comic-sans {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive, 'Patrick Hand', sans-serif;
 }
 </style>

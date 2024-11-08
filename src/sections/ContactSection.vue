@@ -1,14 +1,13 @@
 <template>
   <!-- Contact section start -->
-  <section id="contact-section" class="px-12 lg:px-32 py-16 relative">
+  <section id="contact-section" class="relative flex justify-center items-center">
     <!-- Wrapping the entire section with the link -->
-    <a href="https://forms.gle/YOUR_GOOGLE_FORM_LINK" target="_blank" rel="noopener noreferrer" class="block w-full h-full">
-      <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 overflow-hidden h-full sm:h-[90%] md:h-[85%] lg:h-[100%] -z-50">
+    <a href="https://forms.gle/YOUR_GOOGLE_FORM_LINK" target="_blank" rel="noopener noreferrer" class="block w-full h-full flex justify-center items-center">
+      <div class="relative overflow-hidden">
         <!-- Image inside the link with hover effect -->
-        <img src="@/assets/monster.png" alt="img" class="object-cover w-full h-full transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
+        <img src="@/assets/monster.png" alt="img" class="object-cover max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
       </div>
     </a>
-    <!-- Main text end -->
   </section>
   <!-- Contact section end -->
 </template>
@@ -20,15 +19,7 @@ export default {}
 <style scoped>
 #contact-section {
   position: relative;
-  height: 50vh; /* Default height for the section */
-}
-
-a {
-  display: block;
-  position: relative;
-  width: 100%;
-  height: 100%;
-  z-index: 10; /* Ensure the link is above the image */
+  height: 60vh; /* Default height for the section */
 }
 
 a img {
@@ -36,17 +27,19 @@ a img {
   transition: transform 0.3s ease-in-out;
 }
 
-@media (max-width: 768px) {
+/* Adjust styles for smaller screens */
+@media (max-width: 900px) {
   #contact-section {
-    height: 35vh; /* Adjusted for smaller screens */
+    height: 85vh; /* Adjusted height for smaller screens */
   }
 }
 
 @media (max-width: 480px) {
   #contact-section {
-    height: 35vh; /* Adjusted for even smaller screens */
+    height: 35vh; /* Adjusted height for smaller screens */
   }
-  /* Ensure the image doesn't shrink too much */
+
+  /* Ensure the image covers the area without shrinking too much */
   a img {
     object-fit: cover; /* Ensure image covers the area without distortion */
   }

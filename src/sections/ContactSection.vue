@@ -2,7 +2,7 @@
   <!-- Contact section start -->
   <section id="contact-section" class="relative flex justify-center items-center">
     <!-- Wrapping the entire section with the link -->
-    <a href="https://forms.gle/YOUR_GOOGLE_FORM_LINK" target="_blank" rel="noopener noreferrer" class="block w-full h-full flex justify-center items-center">
+    <a href="https://forms.gle/CKtdFA5GBGn2YLAj8" target="_blank" rel="noopener noreferrer" class="block w-full h-full flex justify-center items-center">
       <div class="relative overflow-hidden">
         <!-- Image inside the link with hover effect -->
         <img src="@/assets/monster.png" alt="img" class="object-cover max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg">

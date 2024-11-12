@@ -3,7 +3,7 @@
   <div class="bg-black w-full flex justify-center items-center md:justify-evenly flex-col md:flex-row gap-8 p-8">
     <!-- Overview start -->
     <div class="text-stone-100 text-center">
-      <p class="tracking-widest font-semibold text-stone-100">KONTER</p>
+      <p class="tracking-widest font-semibold text-stone-100">VisioBook "Pour tous, où que vous soyez"</p>
       <p class="tracking-widest font-light text-stone-100">EPITECH ESP PROJET, LE TEAM: </p>
       <div class="flex justify-center flex-wrap gap-8 mt-3"> <!-- Flex container for team members -->
         <div class="team-member">

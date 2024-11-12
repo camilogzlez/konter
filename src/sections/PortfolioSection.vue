@@ -13,7 +13,7 @@
 
       <!-- Grid for Specialites -->
       <div class="flex justify-start">
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-5">
           <!-- Box 1 -->
           <div class="flex items-center justify-center w-40 h-40  bg-white text-black border border-black shadow-md shadow-gray-400 font-comic-sans">
             <p class="text-xl font-semibold">IA</p>
@@ -30,6 +30,11 @@
           <div class="flex items-center justify-center w-40 h-40  bg-white text-black border border-black shadow-md shadow-gray-400 font-comic-sans">
             <p class="text-xl font-semibold">DEVOPS</p>
           </div>
+          <!-- Box 5 -->
+          <div class="flex items-center justify-center w-40 h-40  bg-white text-black border border-black shadow-md shadow-gray-400 font-comic-sans">
+            <p class="text-s font-semibold">CYBERSÉCURITÉ</p>
+          </div>
+          
         </div>
       </div>
     </div>
@@ -47,22 +52,18 @@
       <!-- Grid for Impact -->
       <!-- Grid for Impact -->
 <div class="flex justify-end">
-  <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+  <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
     <!-- Box 1 (with smaller text) -->
     <div class="flex items-center justify-center w-40 h-40 bg-white text-black border border-black shadow-md shadow-gray-400 font-comic-sans">
-      <p class="text-xs font-semibold text-center">DEMOCRATISATION DE LA LITTÉRATURE</p> <!-- Smaller text -->
+      <p class="text-xs font-semibold text-center">RENDRE LA LITTÉRATURE LUDIQUE ET ACCESSIBLE</p> <!-- Smaller text -->
     </div>
     <!-- Box 2 -->
     <div class="flex items-center justify-center w-40 h-40 bg-white text-black border border-black shadow-md shadow-gray-400 font-comic-sans">
-      <p class="text-sm font-semibold text-center">DÉFICIENCES VISUELLES ET AUDITIVES</p>
+      <p class="text-sm font-semibold text-center">ACCESSIBILITÉ VISUELLE ET AUDITIVE</p>
     </div>
     <!-- Box 3 -->
     <div class="flex items-center justify-center w-40 h-40 bg-white text-black border border-black shadow-md shadow-gray-400 font-comic-sans">
-      <p class="text-sm font-semibold text-center">BARRIÈRES DE LANGUE</p>
-    </div>
-    <!-- Box 4 -->
-    <div class="flex items-center justify-center w-40 h-40 bg-white text-black border border-black shadow-md shadow-gray-400 font-comic-sans">
-      <p class="text-sm font-semibold text-center">ÉDUCATION</p>
+      <p class="text-sm font-semibold text-center">BRISER LES BARRIÈRES LINGUISTIQUES</p>
     </div>
   </div>
 </div>

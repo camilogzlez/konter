@@ -20,7 +20,7 @@
               width="100%" 
               height="100%" 
               class="absolute top-0 left-0 w-full h-full"
-              src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+              src="https://www.youtube.com/embed/Cqn0YyXcmy8" 
               title="YouTube video player" 
               frameborder="0" 
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
